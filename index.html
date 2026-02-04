@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>IronPlus Gym - Forge Your Strength | Westlands, Nairobi</title>
+    <meta name="description" content="Transform your body at IronPlus Gym in Westlands, Nairobi. Premium facilities, expert trainers, and a supportive community. Join the Iron Family today!">
+    <meta name="author" content="IronPlus Gym">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="IronPlus Gym - Forge Your Strength">
+    <meta property="og:description" content="Premium gym facilities in Westlands, Nairobi. Join the Iron Family!">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <!-- HEADER / NAVIGATION -->
+   
+    <header id="header" class="header">
+        <div class="container header-content">
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i data-lucide="dumbbell"></i>
+                </span>
+                <span class="logo-text">IRON<span class="logo-highlight">PLUS</span></span>
+            </a>
+            
+            <!-- Desktop Navigation -->
+            <nav class="nav-desktop">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#facilities" class="nav-link">Facilities</a>
+                <a href="#programs" class="nav-link">Programs</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <!-- CTA Button (Desktop) -->
+            <a href="#membership" class="btn btn-primary btn-glow nav-cta">Join Now</a>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i data-lucide="menu" class="menu-icon"></i>
+                <i data-lucide="x" class="close-icon hidden"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <nav class="nav-mobile hidden" id="mobileNav">
+            <a href="#home" class="nav-link-mobile">Home</a>
+            <a href="#about" class="nav-link-mobile">About</a>
+            <a href="#facilities" class="nav-link-mobile">Facilities</a>
+            <a href="#programs" class="nav-link-mobile">Programs</a>
+            <a href="#contact" class="nav-link-mobile">Contact</a>
+            <a href="#membership" class="btn btn-primary btn-glow mobile-cta">Join Now</a>
+        </nav>
+    </header>
+    <main>
+       
+        <!-- HERO SECTION -->
+       
+        <section id="home" class="hero">
+            <!-- Background Image -->
+            <div class="hero-bg" style="background-image: url('assets/gym-group-training.jpg');">
+                <div class="hero-overlay"></div>
+                <div class="hero-gradient"></div>
+            </div>
+            
+            <!-- Content -->
+            <div class="container hero-content">
+                <p class="hero-preheadline animate-fade-in">Welcome to the Iron Family</p>
+                <h1 class="hero-headline animate-fade-in-up">
+                    <span class="text-white">Forge Your</span>
+                    <br>
+                    <span class="gradient-text text-glow">Strength</span>
+                </h1>
+                <p class="hero-subheadline animate-fade-in">
+                    Transform your body, elevate your mind, and join a community of
+                    dedicated athletes pushing beyond their limits every single day.
+                </p>
+                <div class="hero-buttons animate-fade-in">
+                    <a href="#membership" class="btn btn-primary btn-glow btn-lg animate-glow-pulse">
+                        Join the Iron Team
+                    </a>
+                    <a href="#about" class="btn btn-outline btn-lg">
+                        Discover More
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <button class="scroll-indicator animate-float" aria-label="Scroll down">
+                <i data-lucide="chevron-down"></i>
+            </button>
+            
+            <!-- Decorative Elements -->
+            <div class="deco-top-left"></div>
+            <div class="deco-bottom-right"></div>
+        </section>
+       
+        <!-- ABOUT SECTION -->
+     
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="about-grid">
+                    <!-- Left Content -->
+                    <div class="about-content">
+                        <p class="section-label">About IronPlus</p>
+                        <h2 class="section-title">
+                            <span class="text-white">Built for</span>
+                            <br>
+                            <span class="gradient-text">Champions</span>
+                        </h2>
+                        <p class="about-description">
+                            Founded in 2014, IronPlus has grown from a small garage gym into 
+                            Nairobi's premier fitness destination. We believe that strength isn't 
+                            just physical it's a mindset that transforms every aspect of your life.
+                        </p>
+                        <p class="about-description">
+                            Our state-of-the-art facility combines cutting-edge equipment with 
+                            expert coaching to help you achieve results you never thought possible. 
+                            Whether you're a beginner taking your first steps or an elite athlete 
+                            pushing boundaries, IronPlus is your home.
+                        </p>
+                        
+                        <!-- Stats Grid -->
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i data-lucide="users"></i>
+                                </div>
+                                <span class="stat-number" data-target="500">0</span>
+                                <span class="stat-suffix">+</span>
+                                <p class="stat-label">Active Members</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i data-lucide="award"></i>
+                                </div>
+                                <span class="stat-number" data-target="15">0</span>
+                                <span class="stat-suffix">+</span>
+                                <p class="stat-label">Expert Trainers</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i data-lucide="calendar"></i>
+                                </div>
+                                <span class="stat-number" data-target="10">0</span>
+                                <span class="stat-suffix">+</span>
+                                <p class="stat-label">Years Strong</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i data-lucide="target"></i>
+                                </div>
+                                <span class="stat-number" data-target="20">0</span>
+                                <span class="stat-suffix">+</span>
+                                <p class="stat-label">Programs</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Image -->
+                    <div class="about-image-wrapper">
+                        <div class="about-image-container">
+                            <img src="assets/gym-dumbbell.jpg" alt="Athlete training with dumbbells" class="about-image">
+                            <div class="about-image-overlay"></div>
+                        </div>
+                        <!-- Decorative Badge -->
+                        <div class="about-badge">
+                            <i data-lucide="flame"></i>
+                            <span>10+ Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- FACILITIES SECTION -->
+   
+        <section id="facilities" class="section facilities">
+            <div class="container">
+                <!-- Header -->
+                <div class="section-header">
+                    <p class="section-label">Our Facilities</p>
+                    <h2 class="section-title">
+                        <span class="text-white">World-Class</span>
+                        <br>
+                        <span class="gradient-text">Equipment</span>
+                    </h2>
+                    <p class="section-description">
+                        Step into a facility designed for results. Every zone is optimized
+                        for performance, equipped with industry-leading machines, and
+                        maintained to the highest standards.
+                    </p>
+                </div>
+                
+                <!-- Facilities Grid -->
+                <div class="facilities-grid">
+                    <!-- Strength Zone -->
+                    <div class="facility-card card-hover" style="background-image: url('assets/gym-dumbbell.jpg');">
+                        <div class="facility-overlay"></div>
+                        <div class="facility-content">
+                            <div class="facility-icon">
+                                <i data-lucide="dumbbell"></i>
+                            </div>
+                            <h3 class="facility-title">Strength Zone</h3>
+                            <p class="facility-description">
+                                Premium free weights, power racks, and machines for serious lifters. Build raw power with our comprehensive strength equipment.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Cardio Area -->
+                    <div class="facility-card card-hover" style="background-image: url('assets/gym%20cardio%20area.jpg');">
+                        <div class="facility-overlay"></div>
+                        <div class="facility-content">
+                            <div class="facility-icon">
+                                <i data-lucide="zap"></i>
+                            </div>
+                            <h3 class="facility-title">Cardio Area</h3>
+                            <p class="facility-description">
+                                High-end treadmills, bikes, and rowing machines with integrated entertainment. Burn calories while staying engaged.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Boxing Ring -->
+                    <div class="facility-card card-hover" style="background-image: url('assets/gym-boxing.jpg');">
+                        <div class="facility-overlay"></div>
+                        <div class="facility-content">
+                            <div class="facility-icon">
+                                <i data-lucide="target"></i>
+                            </div>
+                            <h3 class="facility-title">Boxing Ring</h3>
+                            <p class="facility-description">
+                                Professional-grade boxing ring and heavy bags. Train like a champion with our combat sports facilities.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Recovery Room -->
+                    <div class="facility-card card-hover" style="background-image: url('assets/recovery%20rooms.jpg');">
+                        <div class="facility-overlay"></div>
+                        <div class="facility-content">
+                            <div class="facility-icon">
+                                <i data-lucide="droplets"></i>
+                            </div>
+                            <h3 class="facility-title">Recovery Room</h3>
+                            <p class="facility-description">
+                                Sauna, steam room, and massage chairs for optimal recovery. Rest and rejuvenate after intense sessions.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Functional Training -->
+                    <div class="facility-card card-hover" style="background-image: url('assets/gym-ropes.jpg');">
+                        <div class="facility-overlay"></div>
+                        <div class="facility-content">
+                            <div class="facility-icon">
+                                <i data-lucide="activity"></i>
+                            </div>
+                            <h3 class="facility-title">Functional Training</h3>
+                            <p class="facility-description">
+                                Open turf area with sleds, battle ropes, and plyometric equipment. Train movements, not just muscles.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Locker Rooms -->
+                    <div class="facility-card card-hover" style="background-image: url('assets/locker%20rooms.jpg');">
+                        <div class="facility-overlay"></div>
+                        <div class="facility-content">
+                            <div class="facility-icon">
+                                <i data-lucide="lock"></i>
+                            </div>
+                            <h3 class="facility-title">Locker Rooms</h3>
+                            <p class="facility-description">
+                                Premium locker rooms with showers, towel service, and grooming stations. Arrive ready, leave refreshed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <!-- PROGRAMS SECTION -->
+     
+        <section id="programs" class="section programs">
+            <div class="container">
+                <!-- Header -->
+                <div class="section-header">
+                    <p class="section-label">Training Programs</p>
+                    <h2 class="section-title">
+                        <span class="text-white">Find Your</span>
+                        <br>
+                        <span class="gradient-text">Path</span>
+                    </h2>
+                    <p class="section-description">
+                        Whether you're looking to build muscle, lose fat, or improve athletic
+                        performance, we have a program designed specifically for your goals.
+                    </p>
+                </div>
+                
+                <!-- Programs Grid -->
+                <div class="programs-grid">
+                    <!-- Strength Training -->
+                    <div class="program-card card-hover" data-program="strength">
+                        <div class="program-icon">
+                            <i data-lucide="dumbbell"></i>
+                        </div>
+                        <h3 class="program-title">Strength Training</h3>
+                        <p class="program-description">
+                            Build raw power and muscle mass with our comprehensive strength program.
+                        </p>
+                        <button class="program-btn">
+                            Learn More <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Fat Loss -->
+                    <div class="program-card card-hover" data-program="fatloss">
+                        <div class="program-icon">
+                            <i data-lucide="flame"></i>
+                        </div>
+                        <h3 class="program-title">Fat Loss</h3>
+                        <p class="program-description">
+                            Torch calories and reveal your best physique with our metabolic training.
+                        </p>
+                        <button class="program-btn">
+                            Learn More <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Athlete Performance -->
+                    <div class="program-card card-hover" data-program="athlete">
+                        <div class="program-icon">
+                            <i data-lucide="trophy"></i>
+                        </div>
+                        <h3 class="program-title">Athlete Performance</h3>
+                        <p class="program-description">
+                            Sport-specific training to take your athletic abilities to the next level.
+                        </p>
+                        <button class="program-btn">
+                            Learn More <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Beginner Program -->
+                    <div class="program-card card-hover" data-program="beginner">
+                        <div class="program-icon">
+                            <i data-lucide="heart"></i>
+                        </div>
+                        <h3 class="program-title">Beginner Program</h3>
+                        <p class="program-description">
+                            Start your fitness journey with guided introduction to proper training.
+                        </p>
+                        <button class="program-btn">
+                            Learn More <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Personal Training -->
+                    <div class="program-card card-hover" data-program="personal">
+                        <div class="program-icon">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <h3 class="program-title">Personal Training</h3>
+                        <p class="program-description">
+                            One-on-one coaching tailored to your specific goals and schedule.
+                        </p>
+                        <button class="program-btn">
+                            Learn More <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Group Classes -->
+                    <div class="program-card card-hover" data-program="group">
+                        <div class="program-icon">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h3 class="program-title">Group Classes</h3>
+                        <p class="program-description">
+                            High-energy group sessions that make fitness fun and social.
+                        </p>
+                        <button class="program-btn">
+                            Learn More <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Featured Image -->
+                <div class="programs-featured">
+                    <img src="assets/gym-ropes.jpg" alt="Battle ropes training" class="programs-image">
+                    <div class="programs-image-overlay"></div>
+                    <div class="programs-badge">
+                        <i data-lucide="zap"></i>
+                        <span>Functional Training Zone</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- MERCHANDISE SECTION -->
+      
+        <section id="merchandise" class="section merchandise">
+            <div class="container">
+                <!-- Header -->
+                <div class="section-header">
+                    <p class="section-label">Official Gear</p>
+                    <h2 class="section-title">
+                        <span class="text-white">Wear the</span>
+                        <br>
+                        <span class="gradient-text">Iron</span>
+                    </h2>
+                    <p class="section-description">
+                        Represent the Iron Family with our premium branded apparel. Designed
+                        for performance, built for style.
+                    </p>
+                </div>
+                
+                <!-- Merchandise Grid -->
+                <div class="merch-grid">
+                    <!-- T-Shirt -->
+                    <div class="merch-card card-hover">
+                        <span class="merch-badge">New</span>
+                        <div class="merch-image-wrapper">
+                            <img src="assets/merch-tshirt.jpg" alt="IronPlus Tee" class="merch-image">
+                            <div class="merch-overlay">
+                                <button class="btn btn-primary btn-glow merch-btn">
+                                    <i data-lucide="shopping-bag"></i>
+                                    Coming Soon
+                                </button>
+                            </div>
+                        </div>
+                        <div class="merch-info">
+                            <h3 class="merch-title">IronPlus Tee</h3>
+                            <p class="merch-price">KES 4,500</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Vest -->
+                    <div class="merch-card card-hover">
+                        <div class="merch-image-wrapper">
+                            <img src="assets/merch-vest.jpg" alt="Training Vest" class="merch-image">
+                            <div class="merch-overlay">
+                                <button class="btn btn-primary btn-glow merch-btn">
+                                    <i data-lucide="shopping-bag"></i>
+                                    Coming Soon
+                                </button>
+                            </div>
+                        </div>
+                        <div class="merch-info">
+                            <h3 class="merch-title">Training Vest</h3>
+                            <p class="merch-price">KES 3,800</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Shorts -->
+                    <div class="merch-card card-hover">
+                        <span class="merch-badge">Popular</span>
+                        <div class="merch-image-wrapper">
+                            <img src="assets/merch-shorts.jpg" alt="Performance Shorts" class="merch-image">
+                            <div class="merch-overlay">
+                                <button class="btn btn-primary btn-glow merch-btn">
+                                    <i data-lucide="shopping-bag"></i>
+                                    Coming Soon
+                                </button>
+                            </div>
+                        </div>
+                        <div class="merch-info">
+                            <h3 class="merch-title">Performance Shorts</h3>
+                            <p class="merch-price">KES 5,000</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Joggers -->
+                    <div class="merch-card card-hover">
+                        <div class="merch-image-wrapper">
+                            <img src="assets/merch-trousers.jpg" alt="Training Joggers" class="merch-image">
+                            <div class="merch-overlay">
+                                <button class="btn btn-primary btn-glow merch-btn">
+                                    <i data-lucide="shopping-bag"></i>
+                                    Coming Soon
+                                </button>
+                            </div>
+                        </div>
+                        <div class="merch-info">
+                            <h3 class="merch-title">Training Joggers</h3>
+                            <p class="merch-price">KES 7,000</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CTA -->
+                <div class="merch-cta">
+                    <p class="merch-cta-text">Members receive exclusive discounts on all merchandise!</p>
+                    <a href="#membership" class="btn btn-outline">Become a Member</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- MEMBERSHIP SECTION -->
+       
+        <section id="membership" class="section membership">
+            <div class="container">
+                <!-- Header -->
+                <div class="section-header">
+                    <p class="section-label">Membership Plans</p>
+                    <h2 class="section-title">
+                        <span class="text-white">Join the</span>
+                        <br>
+                        <span class="gradient-text">Iron Family</span>
+                    </h2>
+                    <p class="section-description">
+                        Choose the membership that fits your lifestyle. All plans include
+                        access to our world-class facilities and supportive community.
+                    </p>
+                </div>
+                
+                <!-- Pricing Cards -->
+                <div class="pricing-grid">
+                    <!-- Basic Plan -->
+                    <div class="pricing-card card-hover">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Basic</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">KES 3,500</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                            <p class="pricing-description">Perfect for getting started</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i data-lucide="check"></i> Full gym access</li>
+                            <li><i data-lucide="check"></i> Basic equipment training</li>
+                            <li><i data-lucide="check"></i> Locker room access</li>
+                            <li><i data-lucide="check"></i> Free fitness assessment</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline pricing-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Pro Plan -->
+                    <div class="pricing-card pricing-card-featured card-hover">
+                        <span class="pricing-badge">Most Popular</span>
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Pro</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">KES 7,000</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                            <p class="pricing-description">For serious athletes</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i data-lucide="check"></i> Everything in Basic</li>
+                            <li><i data-lucide="check"></i> All group classes</li>
+                            <li><i data-lucide="check"></i> Sauna & steam room</li>
+                            <li><i data-lucide="check"></i> Nutrition consultation</li>
+                            <li><i data-lucide="check"></i> 2 PT sessions/month</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-glow pricing-btn">Get Started</a>
+                    </div>
+                    
+                    <!-- Elite Plan -->
+                    <div class="pricing-card card-hover">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Elite</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">KES 12,000</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                            <p class="pricing-description">The ultimate experience</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i data-lucide="check"></i> Everything in Pro</li>
+                            <li><i data-lucide="check"></i> Unlimited PT sessions</li>
+                            <li><i data-lucide="check"></i> Priority class booking</li>
+                            <li><i data-lucide="check"></i> Exclusive member events</li>
+                            <li><i data-lucide="check"></i> VIP locker</li>
+                            <li><i data-lucide="check"></i> Guest passes (2/month)</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline pricing-btn">Get Started</a>
+                    </div>
+                </div>
+                
+                <!-- Special Offers -->
+                <div class="offers-grid">
+                    <div class="offer-card">
+                        <i data-lucide="gift" class="offer-icon"></i>
+                        <div class="offer-content">
+                            <h4 class="offer-title">Free Trial</h4>
+                            <p class="offer-text">Try us for 3 days, completely free!</p>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <i data-lucide="percent" class="offer-icon"></i>
+                        <div class="offer-content">
+                            <h4 class="offer-title">Student Discount</h4>
+                            <p class="offer-text">20% off with valid student ID</p>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <i data-lucide="clipboard-check" class="offer-icon"></i>
+                        <div class="offer-content">
+                            <h4 class="offer-title">Free Assessment</h4>
+                            <p class="offer-text">Complimentary fitness evaluation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      >
+        <!-- COMMUNITY SECTION -->
+     
+        <section id="community" class="section community">
+            <div class="container">
+                <!-- Header -->
+                <div class="section-header">
+                    <p class="section-label">Our Community</p>
+                    <h2 class="section-title">
+                        <span class="text-white">Iron Family</span>
+                        <br>
+                        <span class="gradient-text">Stories</span>
+                    </h2>
+                    <p class="section-description">
+                        Hear from our members about their transformation journeys and what
+                        makes IronPlus more than just a gym.
+                    </p>
+                </div>
+                
+                <!-- Testimonials -->
+                <div class="testimonials-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card card-hover">
+                        <div class="testimonial-stars">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-quote">
+                            "IronPlus completely transformed my approach to fitness. The trainers are incredibly knowledgeable and the community keeps me motivated every single day."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">WM</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Wanjiku Mwangi</h4>
+                                <p class="author-role">Member for 2 years</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card card-hover">
+                        <div class="testimonial-stars">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-quote">
+                            "As a former athlete, I needed a gym that could keep up with my training needs. IronPlus delivers world-class equipment and coaching that helps me stay at my peak."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">KO</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Kevin Ochieng</h4>
+                                <p class="author-role">Pro Athlete</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card card-hover">
+                        <div class="testimonial-stars">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-quote">
+                            "I was intimidated to start working out, but the staff here made me feel welcome from day one. Lost 20 kilos and gained a whole new outlook on life!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AW</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Amina Wambui</h4>
+                                <p class="author-role">Member for 1 year</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Community Values -->
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i data-lucide="heart"></i>
+                        </div>
+                        <h4 class="value-title">Support</h4>
+                        <p class="value-text">A community that lifts each other up</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i data-lucide="target"></i>
+                        </div>
+                        <h4 class="value-title">Dedication</h4>
+                        <p class="value-text">Committed to your success</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i data-lucide="trophy"></i>
+                        </div>
+                        <h4 class="value-title">Excellence</h4>
+                        <p class="value-text">Nothing but the best for our members</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h4 class="value-title">Family</h4>
+                        <p class="value-text">More than a gym, we're family</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <!-- CONTACT SECTION -->
+       
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <h2 class="contact-title">
+                            <span class="text-white">Get in</span>
+                            <span class="gradient-text"> Touch</span>
+                        </h2>
+                        <p class="contact-description">
+                            Ready to start your journey? Have questions? Drop us a message
+                            and we'll get back to you within 24 hours.
+                        </p>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone (Optional)</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+254 7XX XXX XXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Tell us about your fitness goals..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-glow form-submit">
+                                <i data-lucide="send"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info-card">
+                            <h3 class="contact-info-title">Contact Information</h3>
+                            
+                            <div class="contact-info-list">
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon">
+                                        <i data-lucide="map-pin"></i>
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h4>Location</h4>
+                                        <p>Westlands, Nairobi, Kenya</p>
+                                    </div>
+                                </div>
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon">
+                                        <i data-lucide="phone"></i>
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h4>Phone</h4>
+                                        <p>+254 721 606 409</p>
+                                    </div>
+                                </div>
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon">
+                                        <i data-lucide="mail"></i>
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h4>Email</h4>
+                                        <p>info@ironplus.co.ke</p>
+                                    </div>
+                                </div>
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon">
+                                        <i data-lucide="clock"></i>
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h4>Hours</h4>
+                                        <p>Mon-Fri: 5AM - 11PM<br>Sat-Sun: 6AM - 10PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Social Links -->
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="Facebook">
+                                    <i data-lucide="facebook"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Instagram">
+                                    <i data-lucide="instagram"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Twitter">
+                                    <i data-lucide="twitter"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <i data-lucide="linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+  
+    <!-- FOOTER -->
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <a href="#home" class="logo footer-logo">
+                        <span class="logo-icon">
+                            <i data-lucide="dumbbell"></i>
+                        </span>
+                        <span class="logo-text">IRON<span class="logo-highlight">PLUS</span></span>
+                    </a>
+                    <p class="footer-tagline">
+                        Building strength, forging champions, creating a community of
+                        dedicated athletes since 2014.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Programs -->
+                <div class="footer-links">
+                    <h4 class="footer-heading">Programs</h4>
+                    <ul>
+                        <li><a href="#programs">Strength Training</a></li>
+                        <li><a href="#programs">Fat Loss</a></li>
+                        <li><a href="#programs">Personal Training</a></li>
+                        <li><a href="#programs">Group Classes</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <h4 class="footer-heading">Get in Touch</h4>
+                    <p>Westlands, Nairobi, Kenya</p>
+                    <p>+254 721 606 409</p>
+                    <p>info@ironplus.co.ke</p>
+                </div>
+            </div>
+            
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 IronPlus Gym. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <!-- PROGRAM MODALS -->
+  
+    <div id="programModal" class="modal hidden">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-header">
+                <div class="modal-icon" id="modalIcon"></div>
+                <h3 class="modal-title" id="modalTitle"></h3>
+            </div>
+            <p class="modal-description" id="modalDescription"></p>
+            <div class="modal-details">
+                <div class="modal-detail">
+                    <i data-lucide="clock"></i>
+                    <span id="modalDuration"></span>
+                </div>
+                <div class="modal-detail">
+                    <i data-lucide="calendar"></i>
+                    <span id="modalSchedule"></span>
+                </div>
+                <div class="modal-detail">
+                    <i data-lucide="signal"></i>
+                    <span id="modalLevel"></span>
+                </div>
+            </div>
+            <a href="#contact" class="btn btn-primary btn-glow modal-cta">
+                Start Your Journey
+            </a>
+        </div>
+    </div>
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <i data-lucide="check-circle" class="toast-icon"></i>
+            <span class="toast-message"></span>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
