@@ -1,6 +1,6 @@
 # IronPlus Gym
 
-A single-page website for **IronPlus Gym** — a fitness brand based in Westlands, Nairobi, Kenya. The site showcases facilities, training programs, membership plans, and contact information with a bold, modern design.
+A single-page website for **IronPlus Gym**  a fitness brand based in Westlands, Nairobi, Kenya. The site showcases facilities, training programs, membership plans, and contact information with a bold, modern design.
 
 ---
 
