@@ -8,7 +8,7 @@ A single-page website for **IronPlus Gym** — a fitness brand based in Westland
 
 To see the site in action without running it locally, use this link:
 
-**https://edithcalm.github.io/IronPlus**
+**(https://iron-plus.netlify.app/)**
 
 ---
 
